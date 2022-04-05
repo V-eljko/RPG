@@ -35,3 +35,18 @@ document.onvisibilitychange = function () {
     pauseMusic();
   } else playMusic();
 };
+// Préparation de l'écran de jeu
+// Ethan
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+const mapImage = new Image();
+mapImage.src = "/img/gameAssets/Map-Spawn.png";
+mapImage.onload = () => {
+  ctx.drawImage(mapImage, 0, 0);
+};

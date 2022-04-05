@@ -33,39 +33,48 @@
         height: 100%;
     }
 }
-#game{
+body{
+    background-color: #1d1d1d;
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     width: 100vw;
-    text-transform: uppercase;
-    background-color: #1d1d1d;
-    color: #efefef;
-    #playpause{
-        transform: rotate(180deg);
-        height: 5vh;
-        width: 3vh;
-        display: flex;
+    flex-direction: column;
+    canvas{
         position: absolute;
-        bottom: 0;
-        left: 5px;
-        align-items: stretch;
-        justify-content: space-between;
-        div{
-            background: white;
-            height: 4vh;
-            width: 2px;
-            border-radius: 6px;
-        }
+        align-self: center;
     }
-    .pause{
-        .bar-1,.bar-2,.bar-3{
-            background-color: #efefef67;
+    #loading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        text-transform: uppercase;
+        color: #efefef;
+        #playpause{
+            transform: rotate(180deg);
+            height: 5vh;
+            width: 3vh;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            left: 5px;
+            align-items: stretch;
+            justify-content: space-between;
+            div{
+                background: white;
+                height: 4vh;
+                width: 2px;
+                border-radius: 6px;
+            }
         }
-    }
-    .play{
-        .bar-1{
+        .pause{
+            .bar-1,.bar-2,.bar-3{
+                background-color: #efefef67;
+            }
+        }
+        .play{
+            .bar-1{
             animation: musicPlayer 1600ms infinite ease-in-out ;
         }
         .bar-2{
@@ -83,29 +92,30 @@
         .bar-6{
             animation: musicPlayer 1600ms infinite ease-in-out 1s ;
         }
-       
+        
     }
 }
 .loading-text {
-	@include position-center;
+    @include position-center;
 	width: 100%;
 	height: 100px;
 	line-height: 50px;
 	span {
-		display: inline-block;
+        display: inline-block;
 		margin: 0 5px;
 		color: #fff;
 		@for $i from 0 through 12 {
-			&:nth-child(#{$i + 1}) {
-				filter: blur(0px);
+            &:nth-child(#{$i + 1}) {
+                filter: blur(0px);
 				animation: blur-text 1.5s (#{$i/5})+s infinite linear alternate;
 			}
 		}
 	}
 }
+}
 
 @keyframes blur-text {
-	0% {filter: blur(0px);}
+    0% {filter: blur(0px);}
 	100% {filter: blur(4px);}
 }
 

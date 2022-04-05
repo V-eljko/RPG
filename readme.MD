@@ -44,6 +44,7 @@
 - Création du site
 - Ajout d'un joueur de musique
 - Ajout de la fonctionnalité Progressive Web App
+- Ajout du canvas sur la version test
 
 ## Big thanks to
 
