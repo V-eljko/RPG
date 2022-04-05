@@ -58,7 +58,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-#game #playpause .bar-1, #game #playpause .bar-2, #game #playpause .bar-3 {
+#game #playpause div {
   background: white;
   height: 4vh;
   width: 2px;
@@ -76,8 +76,20 @@
           animation: musicPlayer 1600ms infinite ease-in-out 0.2s;
 }
 #game .play .bar-3 {
-  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.5s;
-          animation: musicPlayer 1600ms infinite ease-in-out 0.5s;
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.4s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.4s;
+}
+#game .play .bar-4 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.6s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.6s;
+}
+#game .play .bar-5 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 0.8s;
+          animation: musicPlayer 1600ms infinite ease-in-out 0.8s;
+}
+#game .play .bar-6 {
+  -webkit-animation: musicPlayer 1600ms infinite ease-in-out 1s;
+          animation: musicPlayer 1600ms infinite ease-in-out 1s;
 }
 
 .loading-text {
