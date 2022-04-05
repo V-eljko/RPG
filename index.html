@@ -50,6 +50,7 @@
     <script>
       const musicPlayer = document.getElementById("playpause");
       const audio = document.getElementById("audio");
+      audio.volume = 0.2;
       function playMusic() {
         musicPlayer.classList.remove("pause");
         musicPlayer.classList.add("play");
@@ -60,6 +61,7 @@
         musicPlayer.classList.add("pause");
         audio.pause();
       }
+      window.onload = playMusic();
       musicPlayer.addEventListener("click", () => {
         const isPlaying = musicPlayer.classList.contains("play");
         if (isPlaying) {
