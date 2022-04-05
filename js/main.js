@@ -52,15 +52,13 @@ mapImage.onload = () => {
   let cinematicx = 0;
   let cinematicy = 0;
   const CinematicMove = () => {
-    if (cinematicx == -1600 || cinematicy == -1700) {
-      let cinematicx = 0;
-      let cinematicy = 0;
-      ctx.drawImage(mapImage, cinematicx, cinematicy);
+    if (cinematicx <= -1700 || cinematicy <= -1500) {
+      location.reload(true);
     } else {
-      let cinematicx = i--;
-      let cinematicy = i--;
+      cinematicx = i--;
+      cinematicy = i--;
       ctx.drawImage(mapImage, cinematicx, cinematicy);
     }
   };
-  setInterval(setInterval(CinematicMove, 120), 1200);
+  setInterval(CinematicMove, 120);
 };
