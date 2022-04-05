@@ -2,14 +2,14 @@
 
 ### MAP
 
-- [] Créer une map
-- [] Créer des murs infranchissable
-- [] Créer les objets sur la map
-- [] Bloquer des endroits de la map qui requiert certains objets pour y accéder
-- [] Créer des pnj
-- [] Créer des dialogue pour les pnj
-- [] Créer des éléments avec lesquels on peut intéragir
-- [] Naviguer entre différentes zones
+- [ ] Créer une map
+- [ ] Créer des murs infranchissable
+- [ ] Créer les objets sur la map
+- [ ] Bloquer des endroits de la map qui requiert certains objets pour y accéder
+- [ ] Créer des pnj
+- [ ] Créer des dialogue pour les pnj
+- [ ] Créer des éléments avec lesquels on peut intéragir
+- [ ] Naviguer entre différentes zones
 
 #### Fonctionnalité Bonus
 
@@ -17,9 +17,9 @@
 
 ### Perso
 
-- [] Créer un perso
-- [] Déplacer le perso à l'aide du clavier
-- [] Créer l'inventaire
+- [ ] Créer un perso
+- [ ] Déplacer le perso à l'aide du clavier
+- [ ] Créer l'inventaire
 
 #### Fonctionnalité Bonus
 
@@ -27,9 +27,9 @@
 
 ### Fonctionnalité
 
-- [] Recupérer des objets en appuyant sur une touche du clavier ou en marchant dessus
-- [] Utiliser des objets avec un touche du clavier
-- [] Afficher une zone de texte suite à un évènements, eg parler à un pnj
+- [ ] Recupérer des objets en appuyant sur une touche du clavier ou en marchant dessus
+- [ ] Utiliser des objets avec un touche du clavier
+- [ ] Afficher une zone de texte suite à un évènements, eg parler à un pnj
 
 #### Fonctionnalité Bonus
 
