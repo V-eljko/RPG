@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   transition: 600ms ease-in-out;
+  font-size: 18px;
 }
 
 @-webkit-keyframes musicPlayer {
@@ -74,7 +75,7 @@
 
 @media screen and (max-width: 760px) {
   #game {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   #game #playpause {
     bottom: 2vh;

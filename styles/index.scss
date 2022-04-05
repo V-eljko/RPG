@@ -1,4 +1,5 @@
-*,*::after,*::before{padding:0;margin:0;box-sizing:border-box;transition: 600ms ease-in-out;}
+*,*::after,*::before{padding:0;margin:0;box-sizing:border-box;transition: 600ms ease-in-out;
+font-size: 18px;}
 @keyframes musicPlayer {
     0%{
         height: 100%;
@@ -56,7 +57,7 @@
 }
 @media screen and (max-width:760px) {
     #game{
-        font-size: 3rem;
+        font-size: 2.5rem;
         #playpause{
             bottom: 2vh;
             left: 2vh;
