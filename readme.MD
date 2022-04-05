@@ -11,9 +11,9 @@
 - [] Créer des éléments avec lesquels on peut intéragir
 - [] Naviguer entre différentes zones
 
---
-
 #### Fonctionnalité Bonus
+
+---
 
 ### Perso
 
@@ -22,6 +22,8 @@
 - [] Créer l'inventaire
 
 #### Fonctionnalité Bonus
+
+---
 
 ### Fonctionnalité
 
