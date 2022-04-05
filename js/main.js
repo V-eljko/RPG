@@ -35,3 +35,16 @@ document.onvisibilitychange = function () {
     pauseMusic();
   } else playMusic();
 };
+// Préparation de l'écran de jeu
+// Ethan
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth * 0.75;
+canvas.height = window.innerHeight * 0.75;
+
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+const mapImage = new Image();
+mapImage.src = "src/de/l/image";
+ctx.drawImage();
