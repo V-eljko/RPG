@@ -48,5 +48,19 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);
 const mapImage = new Image();
 mapImage.src = "/img/gameAssets/Map-Spawn.png";
 mapImage.onload = () => {
-  ctx.drawImage(mapImage, 0, 0);
+  let i = 0;
+  let cinematicx = 0;
+  let cinematicy = 0;
+  const CinematicMove = () => {
+    if (cinematicx == -1600 || cinematicy == -1700) {
+      let cinematicx = 0;
+      let cinematicy = 0;
+      ctx.drawImage(mapImage, cinematicx, cinematicy);
+    } else {
+      let cinematicx = i--;
+      let cinematicy = i--;
+      ctx.drawImage(mapImage, cinematicx, cinematicy);
+    }
+  };
+  setInterval(setInterval(CinematicMove, 120), 1200);
 };
