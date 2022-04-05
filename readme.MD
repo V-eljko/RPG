@@ -46,6 +46,9 @@
 - Ajout de la fonctionnalité Progressive Web App
 - Ajout du canvas sur la version test
 
+| Personnes | Rôle | Github |
+| --------- | ---- | ------ |
+
 ## Big thanks to
 
 xDeviruchi - Pour la musique
