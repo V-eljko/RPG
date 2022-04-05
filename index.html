@@ -45,7 +45,7 @@
         <div class="bar-3"></div>
       </div>
     </div>
-    <audio src="music/xDeviruchi - Title Theme .wav" id="audio"></audio>
+    <audio src="music/Title Theme .wav" id="audio"></audio>
     <script src="/js/pwa.js"></script>
     <script>
       const musicPlayer = document.getElementById("playpause");
@@ -68,6 +68,11 @@
           pauseMusic();
         } else playMusic();
       });
+      document.onvisibilitychange = function () {
+        if (document.visibilityState === "hidden") {
+          pauseMusic();
+        } else playMusic();
+      };
     </script>
   </body>
 </html>

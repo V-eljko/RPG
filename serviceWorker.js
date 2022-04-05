@@ -1,5 +1,19 @@
 const staticSkull = "skull-v1";
-const assets = ["/", "/index.html", "/styles/index.css", "/img/gameAssets"];
+const assets = [
+  "/",
+  "/index.html",
+  "/styles/index.css",
+  "/music/And The Journey Begins.wav",
+  "/music/Decisive Battle.wav",
+  "/music/Exploring The Unknown.wav",
+  "/music/Minigame.wav",
+  "/music/Mysterious Dungeon.wav",
+  "/music/Prepare for Battle!.wav",
+  "/music/Take some rest and eat some food!.wav",
+  "/music/The Final of The Fantasy.wav",
+  "/music/The Icy Cave.wav",
+  "/music/Title Theme.wav",
+];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(

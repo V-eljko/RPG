@@ -57,5 +57,9 @@
 @media screen and (max-width:760px) {
     #game{
         font-size: 3rem;
+        #playpause{
+            bottom: 2vh;
+            left: 2vh;
+        }
     }
 }

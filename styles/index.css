@@ -76,4 +76,8 @@
   #game {
     font-size: 3rem;
   }
+  #game #playpause {
+    bottom: 2vh;
+    left: 2vh;
+  }
 }/*# sourceMappingURL=index.css.map */

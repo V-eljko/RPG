@@ -11,3 +11,7 @@
 - Utiliser des objets avec un touche du clavier
 - Afficher une zone de texte suite à un évènements, eg parler à un pnj
 - Bonus fonctionnalité qu'on choisi
+
+## Big thanks to
+
+xDeviruchi - Pour la musique
