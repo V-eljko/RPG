@@ -1,25 +1,61 @@
-*,*::after,*::before{padding:0;margin:0;box-sizing:border-box;}
-
-#map{
-    height: 900px;
-    width: 1200px;
+*,*::after,*::before{padding:0;margin:0;box-sizing:border-box;transition: 600ms ease-in-out;}
+@keyframes musicPlayer {
+    0%{
+        height: 100%;
+    }
+    75%{
+        height: 25%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+#game{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    .wall{
-        height: 180px;
-        width: 240px;
-        background: red;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background-color: #1d1d1d;
+    color: #efefef;
+    #playpause{
+        transform: rotate(180deg);
+        height: 5vh;
+        width: 3vh;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 5px;
+        align-items: stretch;
+        justify-content: space-between;
+        .bar-1,.bar-2,.bar-3{
+            background: white;
+            height: 4vh;
+            width: 2px;
+            border-radius: 6px;
+        }
     }
-    .floor{
-        height: 180px;
-        width: 240px;
-        background: blue;
+    .pause{
+        .bar-1,.bar-2,.bar-3{
+            background-color: #efefef67;
+        }
     }
-    #player{
-        position: relative;
-        height: 175px;
-        width: 120px;
-        background: green;
+    .play{
+        .bar-1{
+            animation: musicPlayer 1600ms infinite ease-in-out ;
+        }
+        .bar-2{
+            animation: musicPlayer 1600ms infinite ease-in-out 0.2s ;
+        }
+        .bar-3{
+            animation: musicPlayer 1600ms infinite ease-in-out 0.5s ;
+        }
+    }
+}
+@media screen and (max-width:760px) {
+    #game{
+        font-size: 3rem;
     }
 }
