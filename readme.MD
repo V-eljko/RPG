@@ -1,16 +1,47 @@
-## Livrables
+## TODO list
 
-- Déplacer le personnages à l'aide du clavier
-- Une MAP:
-  - Murs infranchissables
-  - Des objets permettant de faire avancer l'histoire
-  - Des pnj auquel on peut parler
-  - Des éléments activables par des objets (porte fermé à clef etc)
-- Naviguer entre différentes zones
-- Recupérer des objets en appuyant sur une touche du clavier ou en marchant dessus
-- Utiliser des objets avec un touche du clavier
-- Afficher une zone de texte suite à un évènements, eg parler à un pnj
-- Bonus fonctionnalité qu'on choisi
+### MAP
+
+- [] Créer une map
+- [] Créer des murs infranchissable
+- [] Créer les objets sur la map
+- [] Bloquer des endroits de la map qui requiert certains objets pour y accéder
+- [] Créer des pnj
+- [] Créer des dialogue pour les pnj
+- [] Créer des éléments avec lesquels on peut intéragir
+- [] Naviguer entre différentes zones
+
+--
+
+#### Fonctionnalité Bonus
+
+### Perso
+
+- [] Créer un perso
+- [] Déplacer le perso à l'aide du clavier
+- [] Créer l'inventaire
+
+#### Fonctionnalité Bonus
+
+### Fonctionnalité
+
+- [] Recupérer des objets en appuyant sur une touche du clavier ou en marchant dessus
+- [] Utiliser des objets avec un touche du clavier
+- [] Afficher une zone de texte suite à un évènements, eg parler à un pnj
+
+#### Fonctionnalité Bonus
+
+---
+
+#### 04/04/22
+
+- Recherche et documentation sur comment faire une map
+
+#### 05/04/22
+
+- Création du site
+- Ajout d'un joueur de musique
+- Ajout de la fonctionnalité Progressive Web App
 
 ## Big thanks to
 
