@@ -44,10 +44,16 @@
 - Création du site
 - Ajout d'un joueur de musique
 - Ajout de la fonctionnalité Progressive Web App
-- Ajout du canvas sur la version test
+- Ajout d'un écran de chargement
+- Ajout d'un bouton pause/play pour la musique
+- Ajout du canvas sur la version production
+- Ajout d'une cinématique en utilisant la map de spawn
 
-| Personnes | Rôle | Github |
-| --------- | ---- | ------ |
+| Personnes | Rôle                   | Github                                  |
+| --------- | ---------------------- | --------------------------------------- |
+| Veljko    | Level & chara designer | [V-eljko](https://github.com/V-eljko)   |
+| Arsène    | Level & chara designer | [Daiiruin](https://github.com/Daiiruin) |
+| Ethan     | Front dev              | [Setsudan](github.com/setsudan)         |
 
 ## Big thanks to
 
