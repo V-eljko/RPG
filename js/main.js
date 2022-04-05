@@ -40,11 +40,13 @@ document.onvisibilitychange = function () {
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
-canvas.width = window.innerWidth * 0.75;
-canvas.height = window.innerHeight * 0.75;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 const mapImage = new Image();
-mapImage.src = "src/de/l/image";
-ctx.drawImage();
+mapImage.src = "/img/gameAssets/Map-Spawn.png";
+mapImage.onload = () => {
+  ctx.drawImage(mapImage, 0, 0);
+};
